@@ -1,0 +1,145 @@
+main {
+  background-image: url(../../../assets/resources/foto.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.9;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container-iconos {
+  width: 40%;
+  background-color: var(--platzi);
+  height: 35vh;
+  opacity: 0.9;
+  margin-top: 100px;
+  min-width: 320px;
+}
+
+.container-iconos-led {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+.container-iconos-led a > span {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.whatsapp-led {
+  background-image: url(../../.././assets/resources/whatsapp-led.png);
+
+}
+.instagram-led {
+  background-image: url(../../.././assets/resources/instagram-led.png);
+}
+.twitter-led {
+  background-image: url(../../.././assets/resources/twitter-led.png);
+}
+.form-container{
+  position: absolute;
+  width: 30%;
+  min-width: 320px;
+}
+.form {
+  border: 1px solid black;
+  height: 80vh;
+
+  /* border-radius: 5px; */
+  margin-top: 50px;
+  background-color: white;
+}
+.form-title {
+  height: 12vh;
+  background-color: var(--main-color);
+  margin-bottom: 20px;
+}
+.form-title h2 {
+  color: var(--white);
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  text-align: center;
+  padding-top: 40px;
+}
+
+textarea {
+  display: block;
+  margin-top: 10px;
+  resize: none;
+  font-size: 1.6rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+.form-body-formulario label {
+  font-size: 1.8rem;
+  font-weight: bold;
+
+}
+.form-body-input {
+    display: block;
+    width: 76%;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #7C7575;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: 1.6rem;
+  }
+.form-body-input:focus{
+    outline: none;
+}
+.form-body-button {
+  margin-top: 20px;
+  margin-left: 11%;
+  width: 76%;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  background-color: var(--main-color);
+  color: var(--white);
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.form-body-button:hover {
+  cursor: pointer;
+}
+.form-body-formulario span {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+}
+.span-nombre {
+  background-image: url(../../.././assets/resources/identification.png);
+}
+.span-email {
+  background-image: url(../../.././assets/resources/email.png);
+}
+.span-celular {
+  background-image: url(../../.././assets/resources/identification.png);
+}
+.span-mensaje {
+  background-image: url(../../.././assets/resources/identification.png);
+}
+.form-body-text {
+  margin-left: 50px;
+  width: 76%;
+  height: 20vh;
+  border: 2px solid black;
+  min-width: 320px;
+}
+
+
