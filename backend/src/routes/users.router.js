@@ -1,5 +1,12 @@
 const express = require('express');
 const router = express.Router();
+router.use(express.json());
+router.use(express.urlencoded({ extended: true }));
+
+// const mongoDb = require('mongoose');
+// const db = require('../models/database'),
+//     users = require('../models/users');
+
 
 router.get("/", (req, res) => {
   const { id } = req.params;

@@ -15,3 +15,5 @@
     "no-console": "warn"
   }
 }
+
+//git config pull.rebase true. Me ayudó para hacer git pull origin main y solucionar conflicto

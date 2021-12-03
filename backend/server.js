@@ -1,6 +1,4 @@
 "use strict";
-console.log('Hello World Express');
-
 const express = require('express');
 const app = express();
 const port = 3005;
@@ -8,8 +6,9 @@ const routerApi = require('./src/routes/index');
 
 app.use(express.json());
 
-app.listen(port, () => {
-    console.log('Server is running on port ' + port);
+const server = app.listen(port, () => {
+  let host = server.address().address;
+  console.log(`Server is running on ${host} ${port}`);
 });
 
 app.get('/', (req, res) => {
