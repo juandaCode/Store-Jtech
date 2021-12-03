@@ -1,11 +1,11 @@
 {
   "name": "express_api_rest",
   "version": "1.0.0",
-  "description": "",
+  "description": "Store Online done With Stack MERN",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
     "lint": "eslint"
   },
   "keywords": [],
