@@ -1,7 +1,6 @@
 "use strict";
 const express = require("express");
-//const db = require('../models/db');
-//const user = require('../models/user');
+
 
 const productsRouter = require('./product.route');
 const usersRouter = require('./user.route');

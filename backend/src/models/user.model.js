@@ -23,10 +23,27 @@ const userSchema = new Schema({
     required: true,
     unique: true,
     trim: true
+  },
+  identification: {
+    type: String,
+    required: true,
+    unique: true,
+    trim: true
+  },
+  address: {
+    city: {
+      type: String,
+      required: true,
+      trim: true
+    },
+    street: {
+      type: String,
+      required: true,
+      trim: true
+    }
   }
-
 });
 
-const modelUser = mongoose.model('User', userSchema);
+const userModel = mongoose.model('User', userSchema);
 
-module.exports = modelUser;
+module.exports = userModel;
